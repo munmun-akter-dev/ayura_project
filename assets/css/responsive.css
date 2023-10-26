@@ -1,0 +1,676 @@
+@media screen and (max-width: 768px) {
+    .small_device {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
+    .starter_right_side img {
+
+        padding-top: 100px;
+        background-color: #E8F7FA !important;
+
+    }
+
+    .starter_right_side {
+        background-color: #E8F7FA !important;
+    }
+
+    .small_device_card {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .span2 {
+        padding-bottom: 25px;
+    }
+    
+
+
+    .section_content_right_side h2 {
+        font-size: 36px;
+
+    }
+
+    .starter_left_side h2 {
+
+        font-size: 40px;
+
+    }
+
+
+    .what_is_ayura {
+        margin-top: 60px;
+
+    }
+
+    .fairer_financial {
+
+        padding-top: 0;
+    }
+
+    .internet_assets {
+        padding-top: 40px;
+
+    }
+
+    .open_internet {
+
+        padding-top: 0px;
+    }
+
+    .thirty_ninety_button {
+
+        padding-bottom: 50px;
+
+    }
+    
+    .box_child {
+        height: 240px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+
+    .small_device_toggole img {
+
+        display: block;
+    }
+
+    .section_content_right_side {
+
+        padding-left: 0;
+    }
+
+    .section_button {
+        padding-left: 20px;
+    }
+
+    .btn.btn-main {
+        padding-left: 20px;
+    }
+
+    .footer_left_side {
+        text-align: center;
+    }
+
+    .footer_bottom_content {
+        display: none;
+    }
+
+    .footer_bottom_right_side button {
+        display: none;
+    }
+
+    .footer_bottom_left_side p {
+
+        text-align: center;
+    }
+
+    .welcome_left_side h1 {
+
+        font-size: 36px;
+        padding-left: 20px;
+
+        line-height: 56px;
+        margin-top: 14px;
+    }
+
+    .welcome_left_side img {
+
+        display: none;
+    }
+
+    .starter_left_side {
+        padding-top: 250px;
+    }
+
+    .section_content button {
+        padding-left: 20px;
+    }
+
+    .navbar {
+        padding-left: 20px;
+    }
+
+    .welcome_right_content {
+
+        display: none;
+    }
+
+    .welcome_right_side {
+
+        display: none;
+    }
+
+    .future_content span {
+
+        display: none;
+    }
+
+    .span2 {
+
+        padding-bottom: 32px;
+    }
+
+    .box_child {
+        height: 240px;
+    }
+
+
+
+
+
+
+    .span2 {
+
+        position: absolute;
+        /* padding-top: 200px; */
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+
+    }
+
+    */ .box_child1 {
+        position: relative;
+    }
+
+
+
+
+    .child_content {
+
+        position: relative;
+    }
+
+    .ayouraBg-2 {
+        background-image: url(../images/box_bg_img1.png) !important;
+    }
+
+    .ayouraBg-3 {
+        background-image: url(../images/box_bg_img1.png) !important;
+    }
+
+    .ayouraBg-4 {
+        background-image: url(../images/box_bg_img1.png) !important;
+    }
+
+
+    .future_content {
+        background-image: url(../images/future_small_device_imgpng.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 460px;
+        max-height: 497px;
+        flex-shrink: 0;
+    }
+
+    .future_section {
+        background-image: none;
+        height: 160px;
+
+    }
+
+    .navbar-nav {
+
+        gap: 20px;
+
+    }
+
+    .starter_left_side h2 {
+
+        padding-top: 49px;
+        padding-left: 20px;
+    }
+
+    .starter_left_side p {
+
+        font-size: 20px;
+
+
+        line-height: 32px;
+        padding-left: 20px;
+        letter-spacing: -0.4px;
+    }
+
+    .starter_left_side button {
+        padding-left: 20px;
+    }
+
+    .starter {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+
+    .section_img_left_side img {
+        padding-top: 50px;
+    }
+
+    .section_content_right_side {
+        padding-top: 20px;
+
+    }
+
+    .open_internet {
+        padding-bottom: 108px;
+    }
+
+    .section_content_right_side h2 {
+
+        font-size: 40px;
+
+        padding-left: 20px;
+    }
+
+    .what_is_ayura {
+        padding-top: 10px;
+
+    }
+
+    .thirty_ninety_button {
+
+        display: block;
+    }
+
+    .section_content {
+
+        font-size: 20px;
+
+        padding-left: 20px;
+    }
+
+    .section_content .button {
+        padding-left: 20px;
+    }
+
+    .section_content_left_side {
+        padding-top: 80px;
+    }
+
+    .section_content_left_side h2 {
+
+
+        font-size: 37px;
+        line-height: 49px;
+        padding-left: 20px;
+    }
+
+    .section_img_right_side {
+        padding-top: 50px;
+    }
+
+    .fairer_financial {
+        padding-bottom: 76px;
+    }
+
+    .internet_assets {
+        padding-top: 68px;
+        padding-bottom: 49px;
+    }
+
+    .development {
+        padding-bottom: 79px;
+        padding-top: 40px;
+    }
+
+    .what_is_ayura {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .ayura_today_head h2 {
+        padding-top: 50px;
+
+        font-size: 36px;
+
+    }
+
+    .fairer_financial {
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+    .open_internet {
+
+        padding-top: 0px;
+    }
+
+    .thirty_ninety_button {
+
+        padding-bottom: 50px;
+
+    }
+
+    .contribute {
+        padding-top: 0px;
+
+    }
+
+    .list_head {
+
+        padding-bottom: 10px;
+    }
+
+    .explore {
+
+        padding-bottom: 40px;
+    }
+
+    /* LEARN-ABOUT-AYURA-START */
+
+    .bottom_line {
+        color: #3C54A4;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+
+    }
+
+    .learn_about_left_side {
+        /* padding-top: 100px; */
+        padding-top: 0;
+    }
+
+    .learn_about_content {
+
+        display: none;
+    }
+
+    .learn_about_left_side h2 {
+
+        font-size: 45px;
+
+    }
+
+    .learn_about_span {
+
+        padding-left: 200px;
+    }
+
+
+    .learn_hub {
+        padding-top: 40px;
+    }
+
+    .learn_hub_left_side h2 {
+
+        padding-left: 30px;
+    }
+
+    .learn_hub_left_list {
+        padding-bottom: 40px;
+    }
+
+    .learn_hub_ayura {
+
+        padding: 30px;
+    }
+
+    .box_head h3 {
+
+        padding-bottom: 20px;
+    }
+
+    .box_head img {
+
+        padding-top: 25px;
+    }
+
+    .small_device_card {
+        display: none !important;
+    }
+
+    .bg_paste_small_device {
+        background: #FCE9F9;
+        ;
+    }
+
+    .bg_milk_coffiee {
+        background: #DFFFDA;
+    }
+
+    .bg_pinkis {
+        background: #E8F7FA;
+    }
+
+    .bg_deep_yellowlis {
+        background: #F8F5E0;
+    }
+
+    .small_device_table {
+        display: none !important;
+    }
+
+    .head_small_device {
+        display: block;
+    }
+
+    .head_lg_device {
+        display: none;
+    }
+
+    /* LEARN-ABOUT-AYURA-END */
+
+
+    /* DEVELOPERS START */
+
+    .item_section {
+
+        padding-bottom: 50px;
+
+    }
+
+    .explore_head h2 {
+
+        font-size: 35px;
+
+
+        padding-left: 20px;
+    }
+
+    .explore_button {
+
+        padding-left: 20px;
+
+
+
+    }
+
+    .list_head {
+
+        padding-left: 20px;
+    }
+
+    .list_underline {
+
+        padding-left: 20px;
+    }
+
+    .list_content {
+
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+
+    /* DEVELOPERS END */
+
+
+
+
+    /* CUMMUNITY PAGE START */
+
+    .community_item_box2 {
+
+        background: #DEDBEC;
+
+    }
+
+    .community_item_box3 {
+        background: #FAE5D5;
+    }
+
+    .community_item_box4 {
+        background: #D7EDF0;
+        max-height: 478px;
+        height: 100%;
+        border-radius: 2px;
+        border: 1px solid #ECECEC;
+
+    }
+
+    .involve {
+        padding-top: 80px;
+        padding-bottom: 0;
+
+    }
+
+    .black_head {
+        color: #3C54A4;
+
+        font-size: 36px;
+
+
+        line-height: 57px;
+
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .black_content {
+
+
+        font-size: 20px;
+
+
+        line-height: 32px;
+
+        padding-left: 20px;
+    }
+
+    .involve_left_side img {
+
+        padding-top: 70px;
+    }
+
+    .item_button {
+        padding-left: 20px;
+    }
+
+
+    .creator {
+        padding-top: 55px;
+        padding-bottom: 30px;
+
+    }
+
+    .item_content {
+
+        padding-top: 20px;
+    }
+
+
+    /* CUMMUNITY PAGE END */
+
+    /* ENTERPRISE PAGE START */
+
+
+    .enterprise_right_side h3 {
+
+        font-size: 40px;
+        padding-right: 90px;
+
+    }
+
+
+    .span_group {
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+
+    .mainet_right_button {
+        margin-top: 50px;
+
+    }
+
+
+    .mainet_left_side h3 {
+
+        font-size: 37px;
+
+        line-height: 59.2px;
+
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+
+    .mainet_right_side {
+        border-left: none;
+
+    }
+
+    .mainet_right_side {
+
+
+        padding-left: 20px;
+    }
+
+    .righ_content_list {
+
+
+        font-size: 14px;
+
+        padding-left: 40px;
+        padding-top: 22px;
+
+    }
+
+    .left_content {
+
+        padding-left: 20px;
+    }
+
+    .mainet_left_side h4 {
+
+        padding-left: 20px;
+    }
+
+    .mainet_left_side h5 {
+
+        font-size: 30px;
+
+        padding-top: 36px;
+        padding-left: 20px;
+    }
+
+    .enterprise_right_side h3 {
+        font-size: 25px;
+        padding-right: 90px;
+        line-height: 43.2px;
+    }
+
+
+    .small_device_img {
+        padding-left: 100px;
+
+    }
+
+
+
+
+}
+
+/* ENTERPRISE PAGE END */

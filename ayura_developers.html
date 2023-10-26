@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Developer Page</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+
+
+    <section class="section_head">
+        <div class="nav_section">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"> <img src="./assets/images/nav_img.png"
+                            alt=""><span>Ayura</span></a>
+
+                    <div class="small_device_toggole d-flex ">
+                        <img src="./assets/images/small_device_search.png" alt="">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+
+                            <span class="navbar-toggler-icon">
+
+                                <i class="fa-solid fa-bars-staggered"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav align-items-center me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                        height="22" viewBox="0 0 22 22" fill="none">
+                                        <circle cx="10.7244" cy="10.3777" r="8.98856" stroke="#200E32"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M16.9761 17.0962L20.5001 20.6111" stroke="#200E32" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_learn_about.html">LEARN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_developers.html">DEVELOPERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_community.html">COMMUNITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_enterprise.html">ENTERPRISE</a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <button class="btn btn-main"><a href="#">CONTACT</a>
+
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"></a>
+                                <button class="btn btn-primary border-0" type="button " data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img
+                                        src="./assets/images/line-icon.svg" alt=""></button>
+                            </li>
+
+                        </ul>
+                        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">Ayura Menu</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- ... -->
+
+                                <ul class="off_canvas_menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_learn_about.html">LEARN</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_developers.html">DEVELOPERS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_community.html">COMMUNITY</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_enterprise.html">ENTERPRISE</a>
+                                    </li>
+
+                                    <li class="nav-item">
+
+                                        <button class="btn btn-main"><a href="#">CONTACT</a>
+
+                                        </button>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+    </section>
+    <!-- NAVBAR END -->
+
+    <!-- DEVELOPERS RESOURCES START -->
+
+
+
+    <!-- FOR SMALL DEVICE -->
+
+
+
+    <div class="d-block d-md-none p-4">
+        <h3 class="bottom_line">
+            Ayura developers
+
+
+            <!-- <br class="d-lg-none d-md-block"> -->
+        </h3>
+        <div class="d-flex align-items-center justify-content-between">
+            <p class="bottom_line">
+                resources
+                <!-- span_group  -->
+            <div class="span_item">
+                <span class="start_search ">
+                    search
+                </span>
+                <span class="start_search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="11" stroke="#A6AEAD" stroke-width="2" />
+                        <circle cx="12" cy="12" r="1" stroke="#A6AEAD" stroke-width="2" />
+                    </svg></span>
+            </div>
+            </p>
+        </div>
+    </div>
+
+    <!-- FOR SMALL DEVICE -->
+
+    <section class="developers_resources bg_light_greenis">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="developer_left_side d-none d-lg-block">
+                        <h3>Ayura <span class="light_content">developer resources</span></h3>
+                        <p class="developer_left_content">A builders manual for Ayura. By builders, for builders.</p>
+                        <span class="start_search">start your search
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                fill="none">
+                                <circle cx="12" cy="12.5" r="11" stroke="#A6AEAD" stroke-width="2" />
+                                <circle cx="12" cy="12.5" r="1" stroke="#A6AEAD" stroke-width="2" />
+                            </svg>
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="sub_page_right_side">
+                        <img class="img-fluid" src="./assets/images/developer_right_img.png" alt="">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- DEVELOPERS RESOURCES END -->
+
+
+    <!-- DEVELOPERS ITEMS SECTION START -->
+
+    <section class="item_section ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 pt-4">
+                    <div class="item_box1 p-4 mb-5">
+                        <img class="lg_device d-none d-lg-block img-fluid" src="./assets/images/items1_img.png" alt="">
+                        <h3 class="item_head">Ayura development</h3>
+                        <p class="item_content">Digital wallets are like real wallets; they <br>store what you need to
+                            prove your <br> identity and get access to the places <br> you value.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                        <img class="small_device_img d-lg-none d-md-block " src="./assets/images/items1_img.png" alt="">
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 pt-4">
+                    <div class="item_box2 p-4 mb-5 ">
+                        <img class="lg_device d-none d-lg-block img-fluid" src="./assets/images/develop_items2.png"
+                            alt="">
+                        <h3 class="item_head">Tutorials</h3>
+                        <p class="item_content">Digital wallets are like real wallets; they <br>store what you need to
+                            prove your <br> identity and get access to the places <br> you value.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                        <img class="small_device_img d-lg-none d-md-block " src="./assets/images/develop_items2.png"
+                            alt="">
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 pt-4">
+                    <div class="item_box3 p-4 mb-5 ">
+                        <img class="lg_device d-none d-lg-block img-fluid" src="./assets/images/items3_img.png" alt="">
+                        <h3 class="item_head">Experiments</h3>
+                        <p class="item_content">Digital wallets are like real wallets; they <br>store what you need to
+                            prove your <br> identity and get access to the places <br> you value.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                        <img class="small_device_img d-lg-none d-md-block " src="./assets/images/items3_img.png" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 pt-4">
+
+                    <div class="item_box4 p-4 mb-5 ">
+                        <img class="lg_device d-none d-lg-block img-fluid" src="./assets/images/items4_img.png" alt="">
+                        <h3 class="item_head">Set up environment</h3>
+                        <p class="item_content">Digital wallets are like real wallets; they <br>store what you need to
+                            prove your <br> identity and get access to the places <br> you value.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                        <img class="small_device_img d-lg-none d-md-block " src="./assets/images/items4_img.png" alt="">
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- DEVELOPERS ITEMS SECTION END -->
+
+
+    <!-- EXPLORE SECTION START -->
+
+    <section class="explore">
+        <div class="container">
+            <div class="row">
+                <div class="explore_head">
+                    <h2>Explore the documentation</h2>
+
+                    <div class="explore_button   d-none d-lg-block ">
+                        <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-lg-4">
+                    <img class="lg_device d-none d-lg-block img-fluid " src="./assets/images/explore_left_img.png"
+                        alt="">
+
+                </div>
+
+
+                <div class="col-lg-4 pt-5">
+                    <div class="introduction">
+                        <p class="list_head">
+                            Introductions
+
+                        </p>
+                        <span class="list_underline">
+                            <a href="index.html">
+                                <p class="list_underline">Intro to Ayura</p>
+                            </a>
+
+
+                        </span>
+                        <p class="list_content">
+                            An introduction to blockchain and Ayura
+                        </p>
+
+
+                        <span class="list_underline">
+                            Intro to Ayura
+
+
+                        </span>
+                        <p class="list_content">
+                            An introduction to cryptocurrency and Ayura
+                        </p>
+
+
+                        <span class="list_underline">
+                            Intro to dapps
+
+
+                        </span>
+                        <p class="list_content">
+                            An introduction to decentralized applications
+                        </p>
+
+
+                        <span class="list_underline">
+                            Intro to the stack
+
+
+                        </span>
+                        <p class="list_content">
+                            An introduction to the Ayura stack
+                        </p>
+
+                        <span class="list_underline">
+                            Web2 vs Web3
+
+
+                        </span>
+                        <p class="list_content">
+                            How the web3 world of development is different
+                        </p>
+
+
+                        <span class="list_underline">
+                            Programming languages
+
+
+                        </span>
+                        <p class="list_content">
+                            Using Ayura with familiar languages
+                        </p>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4 pt-5">
+
+                    <div class="fundamentals">
+                        <p class="list_head">
+                            Fundamentals
+
+                        </p>
+
+
+                        <span class="list_underline">
+                            Accounts
+
+
+                        </span>
+                        <p class="list_content">
+                            Contracts or people on the network
+                        </p>
+
+                        <span class="list_underline">
+                            Transactions
+
+
+                        </span>
+                        <p class="list_content">
+                            The way Ayura state changes
+                        </p>
+
+
+                        <span class="list_underline">
+                            Blocks
+
+
+                        </span>
+                        <p class="list_content">
+                            Batches of transactions added to the blockchain
+                        </p>
+
+
+                        <span class="list_underline">
+                            The Ayura virtual machine (EVM)
+
+
+                        </span>
+                        <p class="list_content">
+                            The computer that processes transactions
+                        </p>
+
+
+                        <span class="list_underline">
+                            Gas
+
+
+                        </span>
+                        <p class="list_content">
+                            Ayura needed to power transactions
+                        </p>
+
+
+                        <span class="list_underline">
+                            Nodes and clients
+
+
+                        </span>
+                        <p class="list_content">
+                            How blocks and transactions are verified in the network
+                        </p>
+
+
+                        <span class="list_underline">
+                            Networks
+
+
+                        </span>
+                        <p class="list_content">
+                            An overview of Mainnet and the test networks
+                        </p>
+
+                        <span class="list_underline">
+                            Mining
+
+
+                        </span>
+                        <p class="list_content">
+                            How new blocks are created and consensus was reached
+                            using proof-of-work
+                        </p>
+
+                        <span class="list_underline">
+                            Mining algorithms
+
+
+                        </span>
+                        <p class="list_content">
+                            Information on Ayura's mining algorithms
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- EXPLORE SECTION END -->
+
+
+
+    <!-- /* FOOTER SECTION START */ -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_left_side">
+                        <a class="navbar-brand" href="index.html"> <img src="./assets/images/nav_img.png"
+                                alt=""><span>Ayura</span></a>
+                        <p class="footer_content">Empower your blockchain.</p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-2">
+                    <ul class="list d-none d-lg-block">
+                        <li>
+                            <h5>AC1</h5>
+                        </li>
+                        <li>
+                            <p>Explorer</p>
+                        </li>
+                        <li>
+                            <p>Connect wallet</p>
+                        </li>
+                        <li>
+                            <p>Upload</p>
+                        </li>
+                        <li>
+                            <p>How it works</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <ul class="list d-none d-lg-block">
+                        <li>
+                            <h5>INFO</h5>
+                        </li>
+                        <li>
+                            <p>Download</p>
+                        </li>
+                        <li>
+                            <p>Help center</p>
+                        </li>
+                        <li>
+                            <p>Blog</p>
+                        </li>
+                        <li>
+                            <p>Jobs</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-2">
+                    <ul class="list d-none d-lg-block">
+                        <li>
+                            <h5>SOCIAL</h5>
+                        </li>
+                        <li>
+                            <p> <img src="./assets/images/instagram.png" alt="">Instagram</p>
+                        </li>
+                        <li>
+                            <p> <img src="./assets/images/twitter .png" alt="">Twitter</p>
+                        </li>
+                        <li>
+                            <p> <img src="./assets/images/facebook.png" alt="">Facebook</p>
+                        </li>
+                        <li>
+                            <p><img src="./assets/images/mirror.png" alt="">Mirror</p>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <hr>
+
+    <section class="footer_bottom">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_bottom_left_side">
+                        <p> Copyright © 2023 AC1 LLC. All rights reserved</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="footer_bottom_right_side d-flex justify-content-end text-align-center">
+                        <p class="footer_bottom_content">We use cookies for better service.</p>
+
+                        <button class="btn btn-accept"> <a class="color_blue" href="#">ACCEPT</a>
+
+                        </button>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- /* FOOTER SECTION END */ -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

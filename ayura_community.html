@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Community Page</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+
+
+    <section class="section_head">
+        <div class="nav_section">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"> <img src="./assets/images/nav_img.png"
+                            alt=""><span>Ayura</span></a>
+
+                    <div class="small_device_toggole d-flex ">
+                        <img src="./assets/images/small_device_search.png" alt="">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+
+                            <span class="navbar-toggler-icon">
+
+                                <i class="fa-solid fa-bars-staggered"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav align-items-center me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                        height="22" viewBox="0 0 22 22" fill="none">
+                                        <circle cx="10.7244" cy="10.3777" r="8.98856" stroke="#200E32"
+                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M16.9761 17.0962L20.5001 20.6111" stroke="#200E32" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_learn_about.html">LEARN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_developers.html">DEVELOPERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_community.html">COMMUNITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ayura_enterprise.html">ENTERPRISE</a>
+                            </li>
+
+                            <li class="nav-item">
+
+                                <button class="btn btn-main"><a href="#">CONTACT</a>
+
+                                </button>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"></a>
+                                <button class="btn btn-primary border-0" type="button " data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img
+                                        src="./assets/images/line-icon.svg" alt=""></button>
+                            </li>
+
+                        </ul>
+                        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">Ayura Menu</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <!-- ... -->
+
+                                <ul class="off_canvas_menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_learn_about.html">LEARN</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_developers.html">DEVELOPERS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_community.html">COMMUNITY</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="ayura_enterprise.html">ENTERPRISE</a>
+                                    </li>
+
+                                    <li class="nav-item">
+
+                                        <button class="btn btn-main"><a href="#">CONTACT</a>
+
+                                        </button>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+    </section>
+    <!-- NAVBAR END -->
+
+    <!-- COMMUNITY PAGE START -->
+
+
+    <!-- FOR SMALL DEVICE START-->
+
+    <div class="d-block d-md-none p-4">
+        <h3 class="bottom_line">
+            Welcome to Ayura
+
+            <!-- <br class="d-lg-none d-md-block"> -->
+        </h3>
+        <div class="d-flex align-items-center justify-content-between">
+            <p class="bottom_line">
+                Community
+                <!-- span_group  -->
+            <div class="span_item">
+                <span class="start_search ">
+                    search
+                </span>
+                <span class="start_search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="11" stroke="#A6AEAD" stroke-width="2" />
+                        <circle cx="12" cy="12" r="1" stroke="#A6AEAD" stroke-width="2" />
+                    </svg></span>
+            </div>
+            </p>
+        </div>
+    </div>
+    <!-- FOR SMALL DEVICE END -->
+
+    <section class="community ">
+        <div class="container">
+            <div class="row text-align-center">
+                <div class="col-md-6">
+                    <div class="community_left_side d-none d-lg-block">
+                        <h2>Welcome to the <br> Ayura Community</h2>
+                        <p class="community_left_content">The Ayura community is home to hundreds of <br>
+                            thousands of developers, technologists, <br>
+                            designers,users, HODLers and enthusiasts.</p>
+                        <span class="start_search">start your search
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                fill="none">
+                                <circle cx="12" cy="12.5" r="11" stroke="#A6AEAD" stroke-width="2" />
+                                <circle cx="12" cy="12.5" r="1" stroke="#A6AEAD" stroke-width="2" />
+                            </svg>
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="sub_page_right_side ">
+                        <img class=" img-fluid" src="./assets/images/community_right_img.png" alt="">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- CUMMUNITY ITEMS SECTION START -->
+
+    <section class="item_section ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pt-4">
+                    <div class=" community_item_box1 p-4 mb-5">
+                        <img src="./assets/images/cummunity_item1.png" alt="">
+                        <h3 class="item_head">Find your tribe</h3>
+                        <p class="item_content">There is a tribe for everyone. Find and connect <br
+                                class="d-none d-lg-block">
+                            with like minded individuals to discuss, ponder, <br class="d-none d-lg-block">
+                            and celebrate Ayura togayura.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 pt-4 ">
+                    <div class="community_item_box2 p-4 mb-5  ">
+                        <img src="./assets/images/cummunity_item2.png" alt="">
+                        <h3 class="item_head">Earn a living</h3>
+                        <p class="item_content">
+                            Everyone has bills to pay. Ayura allows you to <br class="d-none d-lg-block">
+                            find maaningful work, and get paid well to do it.
+                        </p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 pt-4">
+                    <div class="community_item_box3 p-4 mb-5 ">
+                        <img src="./assets/images/cummunity_item3.png" alt="">
+                        <h3 class="item_head">Make a difference</h3>
+                        <p class="item_content d-none d-lg-block">
+
+                            Getting involved with Ayura allows you to be <br class="d-none d-lg-block">
+                            an active stackeholder in a technology that is <br class="d-none d-lg-block">
+                            having a positive impact on millions of people.
+                        </p>
+
+                        <p class="item_content d-lg-none d-md-block">
+
+                            Digital wallets are like real
+                            wallets; they <br> store what you need to
+                            prove your <br> identity and get access to
+                            the places <br> you value.
+                        </p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 pt-4 d-md-none d-block">
+                    <div class="community_item_box4 p-4 mb-5 ">
+                        <img src="./assets/images/cummunity_item3.png" alt="">
+                        <h3 class="item_head">Set up enviornment</h3>
+                        <p class="item_content">
+
+                            Getting involved with Ayura allows you <br> to be
+                            an active stackeholder in a <br> technology that is
+                            having a positive <br> impact on millions of people.
+                        </p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="row involve">
+
+
+                <div class="col-md-6">
+                    <div class="involve_left_side d-none d-md-block">
+                        <img class="img-fluid " src="./assets/images/ayura_img.png" alt="">
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="involve_right_side">
+                        <h3 class="black_head">How can I get <br class="d-lg-none d-md-block"> involved?</h3>
+
+                        <p class="black_content">There are many ways to get <br class="d-lg-none d-md-block"> involved
+                            in the fast-growing <br class="d-none d-lg-block">
+                            Ayura <br class="d-lg-none d-md-block"> community; you can join one of <br
+                                class="d-lg-none d-md-block">the popular <br class="d-none d-lg-block">
+                            online communities, <br class="d-lg-none d-md-block"> attend an event, join a meetup <br
+                                class="d-lg-none d-md-block"> group, <br class="d-none d-lg-block">
+                            contribute to a project, or <br class="d-lg-none d-md-block"> participate in one of the many
+                            <br class="d-none d-lg-block">
+                            online forums about Ayura.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+                        <div class="involve_left_side d-md-block d-lg-none">
+                            <img class="img-fluid " src="./assets/images/ayura_img.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CREATOR SECTION START -->
+
+
+    <section class="creator bg_paste">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="creator_left_side">
+                        <h3 class="black_head">Creator? Builder? Get paid for <br class="d-none d-lg-block"> your <br
+                                class="d-lg-none d-md-block"> work.</h3>
+
+                        <p class="black_content">Are you building on Ayura, or do <br class="d-lg-none d-md-block"> you
+                            want to? <br class="d-none d-lg-block">
+                            Companies are hiring <br class="d-lg-none d-md-block"> for thousands of technical and <br
+                                class="d-lg-none d-md-block"> non- <br class="d-none d-lg-block">
+                            technical roles. Got an idea of <br class="d-lg-none d-md-block"> your own? Try finding a
+                            grant <br class="d-none d-lg-block">
+                            to <br class="d-lg-none d-md-block"> get your project off the ground.</p>
+
+                        <div class="item_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">learn more</a>
+
+                            </button>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="creator_right_side">
+                        <img class="img-fluid" src="./assets/images/internet_assets_left_img.png" alt="">
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CREATOR SECTION END -->
+
+    <!-- CONTRIBUTE SECTION START -->
+
+    <section class="contribute">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="section_content_left_side">
+
+                        <h2>Contribute to ayura.org</h2>
+
+                        <p class="section_content">
+                            This website is open source with <br class="d-lg-none d-md-block"> hundreds of community <br
+                                class="d-none d-lg-block"> <br class="d-lg-none d-md-block">
+                            contributors. You can propose <br class="d-lg-none d-md-block"> edits to any of the content
+                            on <br class="d-none d-lg-block">
+                            this <br class="d-lg-none d-md-block"> site, suggest awesome new <br
+                                class="d-lg-none d-md-block">features, or help us squash <br class="d-none d-lg-block">
+                            bugs.
+                        </p>
+
+                        <div class="section_button">
+                            <button class="btn btn-main"> <a class="color_blue" href="#">Explore DeFi</a>
+
+                            </button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="section_img_right_side">
+                        <img class="img-fluid" src="./assets/images/contribute_right_img.png" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- CONTRIBUTE SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- COMMUNITY PAGE END -->
+
+
+
+    <!-- /* FOOTER SECTION START */ -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_left_side">
+                        <a class="navbar-brand" href="index.html"> <img src="./assets/images/nav_img.png"
+                                alt=""><span>Ayura</span></a>
+                        <p class="footer_content">Empower your blockchain.</p>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-2">
+                    <ul class="list d-none d-lg-block">
+                        <li>
+                            <h5>AC1</h5>
+                        </li>
+                        <li>
+                            <p>Explorer</p>
+                        </li>
+                        <li>
+                            <p>Connect wallet</p>
+                        </li>
+                        <li>
+                            <p>Upload</p>
+                        </li>
+                        <li>
+                            <p>How it works</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <ul class="list d-none d-lg-block">
+                        <li>
+                            <h5>INFO</h5>
+                        </li>
+                        <li>
+                            <p>Download</p>
+                        </li>
+                        <li>
+                            <p>Help center</p>
+                        </li>
+                        <li>
+                            <p>Blog</p>
+                        </li>
+                        <li>
+                            <p>Jobs</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-2">
+                    <ul class="list d-none d-lg-block">
+                        <li>
+                            <h5>SOCIAL</h5>
+                        </li>
+                        <li>
+                            <p> <img src="./assets/images/instagram.png" alt="">Instagram</p>
+                        </li>
+                        <li>
+                            <p> <img src="./assets/images/twitter .png" alt="">Twitter</p>
+                        </li>
+                        <li>
+                            <p> <img src="./assets/images/facebook.png" alt="">Facebook</p>
+                        </li>
+                        <li>
+                            <p><img src="./assets/images/mirror.png" alt="">Mirror</p>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <hr>
+
+    <section class="footer_bottom">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer_bottom_left_side">
+                        <p> Copyright © 2023 AC1 LLC. All rights reserved</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="footer_bottom_right_side d-flex justify-content-end text-align-center">
+                        <p class="footer_bottom_content">We use cookies for better service.</p>
+
+                        <button class="btn btn-accept"> <a class="color_blue" href="#">ACCEPT</a>
+
+                        </button>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- /* FOOTER SECTION END */ -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
